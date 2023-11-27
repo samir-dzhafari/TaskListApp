@@ -13,8 +13,8 @@
 		061F13212B0FBD97003F2287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061F13202B0FBD97003F2287 /* Assets.xcassets */; };
 		061F13242B0FBD97003F2287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061F13222B0FBD97003F2287 /* LaunchScreen.storyboard */; };
 		061F132E2B0FD045003F2287 /* FilledButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061F132D2B0FD045003F2287 /* FilledButtonFactory.swift */; };
+		370DA16E2B14FE4300FD246E /* TaskListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 370DA16C2B14FE4300FD246E /* TaskListApp.xcdatamodeld */; };
 		37A1438A2B139B7B0023A216 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A143892B139B7B0023A216 /* StorageManager.swift */; };
-		37A1438D2B13A9880023A216 /* TaskListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37A1438B2B13A9880023A216 /* TaskListApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		061F13232B0FBD97003F2287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061F13252B0FBD97003F2287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		061F132D2B0FD045003F2287 /* FilledButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonFactory.swift; sourceTree = "<group>"; };
+		370DA16D2B14FE4300FD246E /* TaskListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskListApp.xcdatamodel; sourceTree = "<group>"; };
 		37A143892B139B7B0023A216 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
-		37A1438C2B13A9880023A216 /* TaskListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskListApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				061F13222B0FBD97003F2287 /* LaunchScreen.storyboard */,
 				061F13252B0FBD97003F2287 /* Info.plist */,
 				37A143892B139B7B0023A216 /* StorageManager.swift */,
-				37A1438B2B13A9880023A216 /* TaskListApp.xcdatamodeld */,
+				370DA16C2B14FE4300FD246E /* TaskListApp.xcdatamodeld */,
 			);
 			path = TaskListApp;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A1438D2B13A9880023A216 /* TaskListApp.xcdatamodeld in Sources */,
+				370DA16E2B14FE4300FD246E /* TaskListApp.xcdatamodeld in Sources */,
 				061F13192B0FBD94003F2287 /* TaskListViewController.swift in Sources */,
 				061F132E2B0FD045003F2287 /* FilledButtonFactory.swift in Sources */,
 				37A1438A2B139B7B0023A216 /* StorageManager.swift in Sources */,
@@ -365,14 +365,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		37A1438B2B13A9880023A216 /* TaskListApp.xcdatamodeld */ = {
+		370DA16C2B14FE4300FD246E /* TaskListApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				37A1438C2B13A9880023A216 /* TaskListApp.xcdatamodel */,
+				370DA16D2B14FE4300FD246E /* TaskListApp.xcdatamodel */,
 			);
-			currentVersion = 37A1438C2B13A9880023A216 /* TaskListApp.xcdatamodel */;
-			name = TaskListApp.xcdatamodeld;
-			path = ../../TaskListApp.xcdatamodeld;
+			currentVersion = 370DA16D2B14FE4300FD246E /* TaskListApp.xcdatamodel */;
+			path = TaskListApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
